@@ -57,7 +57,7 @@ public class PrimeCollection {
 	public static void main(String[] args) {
 		PrimeCollection pc = new PrimeCollection();
 		//System.out.println(pc.numbers.size());
-		pc.initRandom(100, 1000);
+		pc.initRandom(100, 2000);
 		System.out.println("La liste est:");
 		pc.affhicher();
 		System.out.println();
